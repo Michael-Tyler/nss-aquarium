@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+}
+
+#container {
+    display: flex;
+}
+
+.logo__image {
+    flex-basis: 16%;
+}
+
+.fish__image {
+    flex-basis: 16%;
+}
+
+.location__image {
+    flex-basis: 16%;
+}
