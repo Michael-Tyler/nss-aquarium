@@ -1,19 +1,49 @@
 .header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: indigo;
 }
 
 #container {
     display: flex;
 }
 
-.logo__image {
-    flex-basis: 16%;
+.content--left {
+    flex: 3;
+}
+
+.fishes {
+    display: flex;
+    border: 5px solid darkblue;
+    flex-wrap: wrap;
+}
+
+.fish {
+    background-color: aquamarine;
+    flex-basis: 45%;
 }
 
 .fish__image {
-    flex-basis: 16%;
+    width: 15rem;
 }
 
-.location__image {
-    flex-basis: 16%;
+.quotes {
+    border: 5px solid goldenrod;
+}
+
+.quote {
+    background-color: yellow;
+}
+
+.locations {
+    border: 5px solid maroon;
+}
+
+.location {
+    background-color: orangered;
+}
+
+.content--right {
+    flex: 1;
 }
