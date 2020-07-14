@@ -1,5 +1,3 @@
-import { useFish } from "./FishDataProvider.js"
+import { FishList } from "./fishList.js"
 
-const allTheFish = useFish()
-
-console.log(allTheFish)
+FishList()

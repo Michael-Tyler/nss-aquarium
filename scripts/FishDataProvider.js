@@ -2,7 +2,7 @@ const fishCollection = [{
         name: "Freddie",
         food: "Shrimp",
         species: "Lion Fish",
-        Length: 6,
+        length: 6,
         location: "Great Barrier Reef",
         image: "images/lionFish.jpg"
 
@@ -11,7 +11,7 @@ const fishCollection = [{
         name: "Spot",
         food: "Small fish",
         species: "Red Drum",
-        Length: 28,
+        length: 28,
         location: "Indian River Lagoon",
         image: "images/red-drum.jpg"
     },
@@ -19,7 +19,7 @@ const fishCollection = [{
         name: "Tammy",
         food: "Crustaceans",
         species: "Striped MandarinFish",
-        Length: 2,
+        length: 2,
         location: "Caribbean",
         image: "images/Striped-Mandarinfish.png"
     }
