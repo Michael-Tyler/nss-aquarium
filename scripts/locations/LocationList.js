@@ -6,7 +6,11 @@ export const locationList = () => {
     const allTheLocations = useLocation()
     contentElement.innerHTML += `
         <article class="locations">
-            ${allTheLocations.map(location => locationAsHtml(location))}
+            ${
+                allTheLocations.map(location => 
+                    locationAsHtml(location)
+                ).join("")
+            }
         </article>
     `
 }
